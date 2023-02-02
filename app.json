@@ -1,0 +1,36 @@
+{
+    "expo": {
+        "name": "CYVN",
+        "slug": "cyapp",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.cy.cyapp"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "backgroundColor": "#FFFFFF"
+            },
+            "package": "com.cy.cyapp"
+        },
+        "web": {},
+        "extra": {
+            "URL": "https://valorant-api.com/v1/",
+            "eas": {
+                "projectId": "5fd697b8-dd82-41d0-9328-7ccc306e2b20"
+            }
+        }
+    }
+  }
